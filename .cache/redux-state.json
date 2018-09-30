@@ -316,12 +316,20 @@
             "version": "^16.5.2"
           },
           {
+            "name": "react-audio-player",
+            "version": "^0.10.0"
+          },
+          {
             "name": "react-dom",
             "version": "^16.5.2"
           },
           {
             "name": "react-helmet",
             "version": "^5.2.0"
+          },
+          {
+            "name": "wavesurfer.js",
+            "version": "^2.0.6"
           }
         ],
         "devDependencies": [
@@ -454,12 +462,12 @@
       "host": "localhost",
       "pathPrefix": "/pithband.github.io",
       "polyfill": true,
-      "buildTime": "2018-09-30T17:35:42.542Z",
+      "buildTime": "2018-09-30T20:17:50.053Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "98ae67b6703f3aa3fba401212ca726e2",
+        "contentDigest": "91200e821f77a4a642c93dcd345b76c3",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -480,26 +488,6 @@
       "internal": {
         "type": "SitePage",
         "contentDigest": "bafcd908aac05ca25921967ec69142f1",
-        "description": "Plugin gatsby-plugin-page-creator",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /about/": {
-      "jsonName": "about-f34",
-      "internalComponentName": "ComponentAbout",
-      "path": "/about/",
-      "component": "/Users/Andrea/Documents/portfolio/pith/src/pages/about.js",
-      "componentChunkName": "component---src-pages-about-js",
-      "context": {},
-      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
-      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
-      "componentPath": "/Users/Andrea/Documents/portfolio/pith/src/pages/about.js",
-      "id": "SitePage /about/",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "dbfd98d4cb3ac3b0bfe5cdead08dbdfd",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -544,6 +532,26 @@
         "owner": "internal-data-bridge"
       }
     },
+    "SitePage /releases/": {
+      "jsonName": "releases-e0a",
+      "internalComponentName": "ComponentReleases",
+      "path": "/releases/",
+      "component": "/Users/Andrea/Documents/portfolio/pith/src/pages/releases.js",
+      "componentChunkName": "component---src-pages-releases-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
+      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "componentPath": "/Users/Andrea/Documents/portfolio/pith/src/pages/releases.js",
+      "id": "SitePage /releases/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "c083b5a6413b16e3dce9f3b662e1790f",
+        "description": "Plugin gatsby-plugin-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    },
     "SitePage /404.html": {
       "jsonName": "404-html-516",
       "internalComponentName": "Component404Html",
@@ -567,7 +575,7 @@
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "814c3a6066aa0d9cea37d23448a87689"
+    "PLUGINS_HASH": "ba6cb856fd553fb9724719115efe3d54"
   },
   "componentDataDependencies": {
     "nodes": {},
@@ -579,16 +587,17 @@
     "about-f34": "125/path---about-f-34-4c2-NZuapzHg3X9TaN1iIixfv1W23E",
     "contact-26a": "686/path---contact-26-a-cd9-NZuapzHg3X9TaN1iIixfv1W23E",
     "index": "173/path---index-6a9-NZuapzHg3X9TaN1iIixfv1W23E",
-    "404-html-516": "164/path---404-html-516-62a-NZuapzHg3X9TaN1iIixfv1W23E"
+    "404-html-516": "164/path---404-html-516-62a-NZuapzHg3X9TaN1iIixfv1W23E",
+    "releases-e0a": "923/path---releases-e-0-a-9c0-NZuapzHg3X9TaN1iIixfv1W23E"
   },
   "components": {
+    "/Users/Andrea/Documents/portfolio/pith/.cache/dev-404-page.js": {
+      "query": "",
+      "componentPath": "/Users/Andrea/Documents/portfolio/pith/.cache/dev-404-page.js"
+    },
     "/Users/Andrea/Documents/portfolio/pith/src/pages/404.js": {
       "query": "",
       "componentPath": "/Users/Andrea/Documents/portfolio/pith/src/pages/404.js"
-    },
-    "/Users/Andrea/Documents/portfolio/pith/src/pages/about.js": {
-      "query": "",
-      "componentPath": "/Users/Andrea/Documents/portfolio/pith/src/pages/about.js"
     },
     "/Users/Andrea/Documents/portfolio/pith/src/pages/contact.js": {
       "query": "",
@@ -598,9 +607,9 @@
       "query": "",
       "componentPath": "/Users/Andrea/Documents/portfolio/pith/src/pages/index.js"
     },
-    "/Users/Andrea/Documents/portfolio/pith/.cache/dev-404-page.js": {
+    "/Users/Andrea/Documents/portfolio/pith/src/pages/releases.js": {
       "query": "",
-      "componentPath": "/Users/Andrea/Documents/portfolio/pith/.cache/dev-404-page.js"
+      "componentPath": "/Users/Andrea/Documents/portfolio/pith/src/pages/releases.js"
     }
   },
   "staticQueryComponents": {}

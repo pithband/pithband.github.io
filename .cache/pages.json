@@ -15,11 +15,6 @@
         "path": "/404/"
     },
     {
-        "componentChunkName": "component---src-pages-about-js",
-        "jsonName": "about-f34",
-        "path": "/about/"
-    },
-    {
         "componentChunkName": "component---src-pages-contact-js",
         "jsonName": "contact-26a",
         "path": "/contact/"
@@ -28,5 +23,10 @@
         "componentChunkName": "component---cache-dev-404-page-js",
         "jsonName": "dev-404-page-5f9",
         "path": "/dev-404-page/"
+    },
+    {
+        "componentChunkName": "component---src-pages-releases-js",
+        "jsonName": "releases-e0a",
+        "path": "/releases/"
     }
 ]

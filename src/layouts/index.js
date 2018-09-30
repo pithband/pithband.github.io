@@ -7,7 +7,7 @@ import Footer from '../components/footer/footer';
 import './index.css';
 
 const Layout = ({ children }) => (
-	<div className="flex justify-between">
+	<div className="flex font-sans justify-between">
 		<Helmet
 			title="Pith"
 			meta={[
@@ -20,10 +20,10 @@ const Layout = ({ children }) => (
 				integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
 				crossorigin="anonymous"
 			/>
-			<link href="https://fonts.googleapis.com/css?family=Karla|NTR" rel="stylesheet" />
+			<link href="https://fonts.googleapis.com/css?family=Karla|NTR|K2D" rel="stylesheet" />
 		</Helmet>
 		<NavBar />
-		<div className="flex flex-col flex-1 md:justify-center max-w-xl mx-auto px-4 py-8 md:p-8 w-full">
+		<div className="flex flex-col flex-1 md:justify-center w-full">
 			{children}
 		</div>
 		<Footer />
@@ -31,7 +31,7 @@ const Layout = ({ children }) => (
 );
 
 Layout.propTypes = {
-	children : PropTypes.func
+	children : PropTypes.object
 };
 
 export default Layout;

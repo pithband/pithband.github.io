@@ -3,8 +3,8 @@ import Link from 'gatsby-link';
 
 const NavBar = () => {
 	return (
-		<aside className="bg-blood h-screen flex">
-			<div className="flex flex-col items-center max-w-xl mx-auto p-4 md:p-8">
+		<div className="bg-desire h-screen flex shadow-outline z-50">
+			<div className="flex flex-col items-center max-w-xl mx-auto p-4 md:p-8 border-gunmetal">
 				<Link to="/" className="flex items-center no-underline text-white">
 					<div className="max-w-xs">
 						<img
@@ -15,37 +15,36 @@ const NavBar = () => {
 						/>
 					</div>
 				</Link>
-				<a
-					className="mr-4 text-black hover:text-white no-underline"
-					href="https://piith.bandcamp.com/"
-					target="_blank"
-					rel="noopener noreferrer">
-					<div className="flex justify-between">
-						<i className="fab fa-bandcamp icon mr-2" />
-						Bandcamp
-					</div>
-				</a>
-				{/* <div className="flex flex-col justify-between">
+				<div className="flex flex-col justify-between">
 					<Link
-						to="/"
-						className="mr-6 my-2 no-underline text-white">
-						Home
-					</Link>
-
-					<Link
-						to="/about"
-						className="mr-6 my-2 no-underline text-white">
-						About
+						to="/releases"
+						className="mr-6 my-2 no-underline text-gunmetal hover:text-wave">
+						Releases
 					</Link>
 
 					<Link
 						to="/contact"
-						className="mr-6 my-2 no-underline text-white">
+						className="mr-6 my-2 no-underline text-gunmetal hover:text-wave">
 						Contact
 					</Link>
-				</div> */}
+					<div className="my-6">
+						<p className="text-gunmetal">Links</p>
+						<div className="ml-2">
+						<a
+							className="ml-2 my-1 text-gunmetal hover:text-wave no-underline"
+							href="https://piith.bandcamp.com/"
+							target="_blank"
+							rel="noopener noreferrer">
+							<div className="flex justify-between">
+								<i className="fab fa-bandcamp icon mr-2" />
+								Bandcamp
+							</div>
+						</a>
+						</div>
+					</div>
+				</div>
 			</div>
-		</aside>
+		</div>
 	);
 };
 
