@@ -1,30 +1,37 @@
-import React from "react";
-import PropTypes from "prop-types";
-import Helmet from "react-helmet";
+import React from 'react';
+import PropTypes from 'prop-types';
+import Helmet from 'react-helmet';
 
-import NavBar from "../components/navbar/navbar";
-import Footer from "../components/footer/footer";
-import "./index.css";
+import NavBar from '../components/navbar/navbar';
+import Footer from '../components/footer/footer';
+import './index.css';
 
-const TemplateWrapper = ({ children }) => (
-  <div className="flex flex-col font-sans min-h-screen text-grey-darkest">
-    <Helmet
-      title="Pith"
-      meta={[
-        { name: "description", content: "Sample" },
-        { name: "keywords", content: "sample, something" }
-      ]}
-    />
-    <NavBar />
-    <div className="flex flex-col flex-1 md:justify-center max-w-xl mx-auto px-4 py-8 md:p-8 w-full">
-      {children}
-    </div>
-    <Footer />
-  </div>
+const Layout = ({ children }) => (
+	<div className="flex justify-between">
+		<Helmet
+			title="Pith"
+			meta={[
+				{ name: 'description', content: 'Sample' },
+				{ name: 'keywords', content: 'sample, something' }
+			]}>
+			<link
+				href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+				rel="stylesheet"
+				integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+				crossorigin="anonymous"
+			/>
+			<link href="https://fonts.googleapis.com/css?family=Karla|NTR" rel="stylesheet" />
+		</Helmet>
+		<NavBar />
+		<div className="flex flex-col flex-1 md:justify-center max-w-xl mx-auto px-4 py-8 md:p-8 w-full">
+			{children}
+		</div>
+		<Footer />
+	</div>
 );
 
-TemplateWrapper.propTypes = {
-  children: PropTypes.func
+Layout.propTypes = {
+	children : PropTypes.func
 };
 
-export default TemplateWrapper;
+export default Layout;
