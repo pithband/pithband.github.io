@@ -1,8 +1,7 @@
 {
   "nodes": {
     "SitePage /dev-404-page/": {
-      "layout": "index",
-      "jsonName": "dev-404-page.json",
+      "jsonName": "dev-404-page-5f9",
       "internalComponentName": "ComponentDev404Page",
       "path": "/dev-404-page/",
       "component": "/Users/Andrea/Documents/portfolio/pith/.cache/dev-404-page.js",
@@ -16,7 +15,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "1909f67aad83bd806bb9af37eeb899c7",
+        "contentDigest": "be10de479d61b86cefecbd42031e396d",
         "description": "Plugin dev-404-page",
         "owner": "internal-data-bridge"
       }
@@ -56,29 +55,25 @@
         "owner": "internal-data-bridge"
       }
     },
-    "Plugin component-layout-creator": {
-      "resolve": "/Users/Andrea/Documents/portfolio/pith/node_modules/gatsby/dist/internal-plugins/component-layout-creator",
-      "id": "Plugin component-layout-creator",
-      "name": "component-layout-creator",
+    "Plugin load-babel-config": {
+      "resolve": "/Users/Andrea/Documents/portfolio/pith/node_modules/gatsby/dist/internal-plugins/load-babel-config",
+      "id": "Plugin load-babel-config",
+      "name": "load-babel-config",
       "version": "1.0.0",
       "pluginOptions": {
         "plugins": []
       },
       "nodeAPIs": [
-        "createLayouts"
+        "onPreBootstrap"
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "/Users/Andrea/Documents/portfolio/pith/node_modules/gatsby/dist/internal-plugins/component-layout-creator",
+      "pluginFilepath": "/Users/Andrea/Documents/portfolio/pith/node_modules/gatsby/dist/internal-plugins/load-babel-config",
       "packageJson": {
-        "name": "component-layout-creator",
-        "description": "An internal Gatsby plugin that creates pages from component files in src/layouts",
+        "name": "load-babel-config",
+        "description": "Internal plugin that handles loading Babel configs",
         "version": "1.0.0",
         "main": "index.js",
-        "keywords": [
-          "gatsby",
-          "gatsby-plugin"
-        ],
         "author": "Kyle Mathews <mathews.kyle@gmail.com>",
         "license": "MIT",
         "dependencies": [],
@@ -90,7 +85,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "a099f7d42a3aeb3a68dc4937ec4deb7f",
+        "contentDigest": "b9c3776ef23bb49941b1674434615931",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -175,8 +170,7 @@
         "plugins": []
       },
       "nodeAPIs": [
-        "onCreatePage",
-        "onCreateLayout"
+        "onCreatePage"
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
@@ -197,7 +191,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "2033902204f264b96bcd6156d59de121",
+        "contentDigest": "8a54aa3363e0b5f370faa8b2b8d37ae0",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -206,7 +200,7 @@
       "resolve": "/Users/Andrea/Documents/portfolio/pith/node_modules/gatsby-plugin-react-helmet",
       "id": "Plugin gatsby-plugin-react-helmet",
       "name": "gatsby-plugin-react-helmet",
-      "version": "2.0.11",
+      "version": "3.0.0",
       "pluginOptions": {
         "plugins": []
       },
@@ -219,7 +213,7 @@
       "packageJson": {
         "name": "gatsby-plugin-react-helmet",
         "description": "Manage document head data with react-helmet. Provides drop-in server rendering support for Gatsby.",
-        "version": "2.0.11",
+        "version": "3.0.0",
         "main": "index.js",
         "keywords": [
           "gatsby",
@@ -241,24 +235,28 @@
         "license": "MIT",
         "dependencies": [
           {
-            "name": "babel-runtime",
-            "version": "^6.26.0"
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
           }
         ],
         "devDependencies": [
           {
-            "name": "babel-cli",
-            "version": "^6.26.0"
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
           },
           {
             "name": "cross-env",
-            "version": "^5.0.5"
+            "version": "^5.1.4"
           }
         ],
         "peerDependencies": [
           {
             "name": "gatsby",
-            "version": "^1.0.0"
+            "version": ">2.0.0-alpha"
           },
           {
             "name": "react-helmet",
@@ -271,7 +269,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "b2e749c67ef70eed2a0836b5f569a777",
+        "contentDigest": "ba6c922bd658187bc777a8d52b689ff1",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -280,7 +278,7 @@
       "resolve": "/Users/Andrea/Documents/portfolio/pith",
       "id": "Plugin default-site-plugin",
       "name": "default-site-plugin",
-      "version": "8134542533e592b60c58303227ef6b55",
+      "version": "6135195d8b6b9c91bf02764ef00d3293",
       "pluginOptions": {
         "plugins": []
       },
@@ -303,15 +301,23 @@
         "dependencies": [
           {
             "name": "gatsby",
-            "version": "^1.9.277"
+            "version": "^2.0.0"
           },
           {
             "name": "gatsby-link",
-            "version": "^1.6.46"
+            "version": "^2.0.2"
           },
           {
             "name": "gatsby-plugin-react-helmet",
-            "version": "^2.0.8"
+            "version": "^3.0.0"
+          },
+          {
+            "name": "react",
+            "version": "^16.5.2"
+          },
+          {
+            "name": "react-dom",
+            "version": "^16.5.2"
           },
           {
             "name": "react-helmet",
@@ -339,7 +345,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "d08be614cd20525c33209d87d326acc4",
+        "contentDigest": "060f4a44efd9b0e84548f2230d5c77e9",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -348,7 +354,7 @@
       "resolve": "/Users/Andrea/Documents/portfolio/pith/node_modules/gatsby-plugin-page-creator",
       "id": "Plugin gatsby-plugin-page-creator",
       "name": "gatsby-plugin-page-creator",
-      "version": "1.0.1",
+      "version": "2.0.0",
       "pluginOptions": {
         "plugins": [],
         "path": "/Users/Andrea/Documents/portfolio/pith/src/pages",
@@ -363,7 +369,7 @@
       "packageJson": {
         "name": "gatsby-plugin-page-creator",
         "description": "Gatsby plugin that automatically creates pages from React components in specified directories",
-        "version": "1.0.1",
+        "version": "2.0.0",
         "main": "index.js",
         "keywords": [
           "gatsby",
@@ -373,8 +379,8 @@
         "license": "MIT",
         "dependencies": [
           {
-            "name": "babel-runtime",
-            "version": "^6.26.0"
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
           },
           {
             "name": "bluebird",
@@ -385,12 +391,16 @@
             "version": "^1.7.0"
           },
           {
+            "name": "fs-exists-cached",
+            "version": "^1.0.0"
+          },
+          {
             "name": "glob",
             "version": "^7.1.1"
           },
           {
             "name": "lodash",
-            "version": "^4.17.4"
+            "version": "^4.17.10"
           },
           {
             "name": "parse-filepath",
@@ -403,22 +413,31 @@
         ],
         "devDependencies": [
           {
-            "name": "babel-cli",
-            "version": "^6.26.0"
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
           },
           {
             "name": "cross-env",
             "version": "^5.0.5"
           }
         ],
-        "peerDependencies": [],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          }
+        ],
         "optionalDependecies": [],
         "bundledDependecies": []
       },
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "974b4d5e593d52945513b9d1140df0bc",
+        "contentDigest": "b81936b538b9020a4997f4ec937a2f64",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -431,19 +450,18 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-09-30T14:58:05.735Z",
+      "buildTime": "2018-09-30T15:15:52.638Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "a77abcd465c799f3d98ed119cc0e5d0c",
+        "contentDigest": "fecac1ce2b57ab4b69ecc29c5853375f",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
     },
     "SitePage /404/": {
-      "layout": "index",
-      "jsonName": "404.json",
+      "jsonName": "404-22d",
       "internalComponentName": "Component404",
       "path": "/404/",
       "component": "/Users/Andrea/Documents/portfolio/pith/src/pages/404.js",
@@ -457,14 +475,13 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "c3c5aae6f1d07417e9c2eb0ebe361946",
+        "contentDigest": "bafcd908aac05ca25921967ec69142f1",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
     },
     "SitePage /about/": {
-      "layout": "index",
-      "jsonName": "about.json",
+      "jsonName": "about-f34",
       "internalComponentName": "ComponentAbout",
       "path": "/about/",
       "component": "/Users/Andrea/Documents/portfolio/pith/src/pages/about.js",
@@ -478,14 +495,13 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "ac4ba377133ee35362c004f356272850",
+        "contentDigest": "dbfd98d4cb3ac3b0bfe5cdead08dbdfd",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
     },
     "SitePage /contact/": {
-      "layout": "index",
-      "jsonName": "contact.json",
+      "jsonName": "contact-26a",
       "internalComponentName": "ComponentContact",
       "path": "/contact/",
       "component": "/Users/Andrea/Documents/portfolio/pith/src/pages/contact.js",
@@ -499,14 +515,13 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "f376deb715517c67440c801c154d1e73",
+        "contentDigest": "e2fb44081b4dfcc352da345772d955b8",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
     },
     "SitePage /": {
-      "layout": "index",
-      "jsonName": "index.json",
+      "jsonName": "index",
       "internalComponentName": "ComponentIndex",
       "path": "/",
       "component": "/Users/Andrea/Documents/portfolio/pith/src/pages/index.js",
@@ -520,14 +535,13 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "898fbae1dc66b21a957af188b51d1373",
+        "contentDigest": "d2dd5f686b9e95281cbd6139427ded40",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
     },
     "SitePage /404.html": {
-      "layout": "index",
-      "jsonName": "404-html.json",
+      "jsonName": "404-html-516",
       "internalComponentName": "Component404Html",
       "path": "/404.html",
       "component": "/Users/Andrea/Documents/portfolio/pith/src/pages/404.js",
@@ -541,7 +555,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "bc6ec1fbf47590198b8b4d7101df04a6",
+        "contentDigest": "de380fbbbe7913aa170facd2e6438f77",
         "description": "Plugin prod-404",
         "owner": "internal-data-bridge"
       }
@@ -549,14 +563,41 @@
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "7be6703b6bca69883f73279a178687f1"
+    "PLUGINS_HASH": "d89b7f576bf029e773026539d3c69dfe"
   },
   "componentDataDependencies": {
     "nodes": {},
-    "connections": {
-      "SitePage": [
-        "/dev-404-page/"
-      ]
+    "connections": {}
+  },
+  "jsonDataPaths": {
+    "dev-404-page-5f9": "920/path---dev-404-page-5-f-9-fab-NZuapzHg3X9TaN1iIixfv1W23E",
+    "404-22d": "44/path---404-22-d-bce-NZuapzHg3X9TaN1iIixfv1W23E",
+    "about-f34": "125/path---about-f-34-4c2-NZuapzHg3X9TaN1iIixfv1W23E",
+    "contact-26a": "686/path---contact-26-a-cd9-NZuapzHg3X9TaN1iIixfv1W23E",
+    "index": "173/path---index-6a9-NZuapzHg3X9TaN1iIixfv1W23E",
+    "404-html-516": "164/path---404-html-516-62a-NZuapzHg3X9TaN1iIixfv1W23E"
+  },
+  "components": {
+    "/Users/Andrea/Documents/portfolio/pith/.cache/dev-404-page.js": {
+      "query": "",
+      "componentPath": "/Users/Andrea/Documents/portfolio/pith/.cache/dev-404-page.js"
+    },
+    "/Users/Andrea/Documents/portfolio/pith/src/pages/404.js": {
+      "query": "",
+      "componentPath": "/Users/Andrea/Documents/portfolio/pith/src/pages/404.js"
+    },
+    "/Users/Andrea/Documents/portfolio/pith/src/pages/about.js": {
+      "query": "",
+      "componentPath": "/Users/Andrea/Documents/portfolio/pith/src/pages/about.js"
+    },
+    "/Users/Andrea/Documents/portfolio/pith/src/pages/contact.js": {
+      "query": "",
+      "componentPath": "/Users/Andrea/Documents/portfolio/pith/src/pages/contact.js"
+    },
+    "/Users/Andrea/Documents/portfolio/pith/src/pages/index.js": {
+      "query": "",
+      "componentPath": "/Users/Andrea/Documents/portfolio/pith/src/pages/index.js"
     }
-  }
+  },
+  "staticQueryComponents": {}
 }
