@@ -1,22 +1,13 @@
 {
   "nodes": {
     "SitePage /dev-404-page/": {
-      "jsonName": "dev-404-page-5f9",
-      "internalComponentName": "ComponentDev404Page",
       "path": "/dev-404-page/",
-      "component": "/Users/Andrea/Documents/portfolio/pith/.cache/dev-404-page.js",
-      "componentChunkName": "component---cache-dev-404-page-js",
-      "context": {},
-      "pluginCreator___NODE": "Plugin dev-404-page",
-      "pluginCreatorId": "Plugin dev-404-page",
-      "componentPath": "/Users/Andrea/Documents/portfolio/pith/.cache/dev-404-page.js",
       "id": "SitePage /dev-404-page/",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "be10de479d61b86cefecbd42031e396d",
-        "description": "Plugin dev-404-page",
+        "contentDigest": "f91d29e10ba680b413138cf9ed86e655",
         "owner": "internal-data-bridge"
       }
     },
@@ -278,7 +269,7 @@
       "resolve": "/Users/Andrea/Documents/portfolio/pith",
       "id": "Plugin default-site-plugin",
       "name": "default-site-plugin",
-      "version": "6135195d8b6b9c91bf02764ef00d3293",
+      "version": "a2b816d90f98bd7967eedb9a7cd4e229",
       "pluginOptions": {
         "plugins": []
       },
@@ -326,6 +317,10 @@
         ],
         "devDependencies": [
           {
+            "name": "gh-pages",
+            "version": "^2.0.0"
+          },
+          {
             "name": "prettier",
             "version": "^1.14.2"
           },
@@ -345,7 +340,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "060f4a44efd9b0e84548f2230d5c77e9",
+        "contentDigest": "39f60233abbd8a942cd1073545f605de",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -446,16 +441,14 @@
       "siteMetadata": {
         "title": "Gatsby Starter Tailwind"
       },
-      "port": "8000",
-      "host": "localhost",
-      "pathPrefix": "",
+      "pathPrefix": "/pithband.github.io",
       "polyfill": true,
-      "buildTime": "2018-09-30T16:03:19.905Z",
+      "buildTime": "2018-09-30T16:20:43.684Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "1b32fe406d169a4dda2565df527236fc",
+        "contentDigest": "b2b9d5306b09595bd07737fdcd8361a5",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -563,7 +556,7 @@
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "d89b7f576bf029e773026539d3c69dfe"
+    "PLUGINS_HASH": "8697fcf6a32ca51ebc33f34de9b3ba6e"
   },
   "componentDataDependencies": {
     "nodes": {},
@@ -578,10 +571,6 @@
     "404-html-516": "164/path---404-html-516-62a-NZuapzHg3X9TaN1iIixfv1W23E"
   },
   "components": {
-    "/Users/Andrea/Documents/portfolio/pith/.cache/dev-404-page.js": {
-      "query": "",
-      "componentPath": "/Users/Andrea/Documents/portfolio/pith/.cache/dev-404-page.js"
-    },
     "/Users/Andrea/Documents/portfolio/pith/src/pages/404.js": {
       "query": "",
       "componentPath": "/Users/Andrea/Documents/portfolio/pith/src/pages/404.js"
