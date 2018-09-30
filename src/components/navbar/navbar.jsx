@@ -11,12 +11,15 @@ const NavBar = () => {
 	};
 
 	return (
-		<nav className="bg-teal">
+		<nav className="bg-blood">
 			<div className="flex flex-wrap items-center justify-between max-w-xl mx-auto p-4 md:p-8">
 				<Link to="/" className="flex items-center no-underline text-white">
-					<span className="font-bold text-xl tracking-tight">
-						Pith
-					</span>
+					<div className="max-w-xs">
+						<img src="https://res.cloudinary.com/andreafinlay/image/upload/v1538321354/Pith_Back_Cover.png"
+							alt="pith logo"
+							height="42"
+							width="42" />
+					</div>
 				</Link>
 
 				<button
