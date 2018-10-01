@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Helmet from 'react-helmet';
 
-import NavBar from '../components/navbar/navbar';
+import NavBarCmp from '../components/navbar/index';
 import Footer from '../components/footer/footer';
 import './index.css';
 
@@ -22,7 +22,7 @@ const Layout = ({ children }) => (
 			/>
 			<link href="https://fonts.googleapis.com/css?family=Karla|NTR|K2D" rel="stylesheet" />
 		</Helmet>
-		<NavBar />
+		<NavBarCmp />
 		<div className="flex flex-col flex-1 md:justify-center w-full">
 			{children}
 		</div>

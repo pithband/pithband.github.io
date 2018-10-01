@@ -4,7 +4,7 @@ import Link from 'gatsby-link';
 
 const IndexPage = () => (
 	<Layout>
-		<div className="h-screen bg-honeydew flex flex-col justify-center items-center">
+		<div className="h-screen bg-honeydew flex flex-col justify-center items-center lg:ml-24 lg:-mr-24 font-bold tracking-wide">
 			<p className="text-gunmetal text-xl">Pith</p>
 			<p className="text-gunmetal m-6 text-center">
 				Site under construction - follow the links below or check back soon for more content

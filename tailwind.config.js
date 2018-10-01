@@ -59,6 +59,7 @@ let colors = {
   'lilac': '#BFACC8',
   'midnight': '#04395E',
   'wave': '#ACBCC6',
+  'eton': '#91C7B1',
 
   'black': '#22292f',
   'grey-darkest': '#3d4852',
@@ -414,6 +415,7 @@ module.exports = {
     default: '1px',
     '0': '0',
     '2': '2px',
+    '3': '3px',
     '4': '4px',
     '8': '8px',
   },
