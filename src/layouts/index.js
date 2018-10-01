@@ -7,7 +7,7 @@ import Footer from '../components/footer/footer';
 import './index.css';
 
 const Layout = ({ children }) => (
-	<div className="flex font-sans justify-between">
+  <div className="flex justify-between font-sans bg-honeydew">
 		<Helmet
 			title="Pith"
 			meta={[

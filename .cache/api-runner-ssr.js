@@ -1,6 +1,9 @@
 var plugins = [{
       plugin: require('/Users/Andrea/Documents/portfolio/pith/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
       options: {"plugins":[]},
+    },{
+      plugin: require('/Users/Andrea/Documents/portfolio/pith/node_modules/gatsby-plugin-favicon/gatsby-ssr'),
+      options: {"plugins":[],"logo":"./src/content/favicon.png","injectHTML":true,"icons":{"android":true,"appleIcon":true,"appleStartup":true,"coast":false,"favicons":true,"firefox":true,"twitter":false,"yandex":false,"windows":false}},
     }]
 // During bootstrap, we write requires at top of this file which looks like:
 // var plugins = [

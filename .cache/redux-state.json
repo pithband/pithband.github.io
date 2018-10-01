@@ -1,22 +1,13 @@
 {
   "nodes": {
     "SitePage /dev-404-page/": {
-      "jsonName": "dev-404-page-5f9",
-      "internalComponentName": "ComponentDev404Page",
       "path": "/dev-404-page/",
-      "component": "/Users/Andrea/Documents/portfolio/pith/.cache/dev-404-page.js",
-      "componentChunkName": "component---cache-dev-404-page-js",
-      "context": {},
-      "pluginCreator___NODE": "Plugin dev-404-page",
-      "pluginCreatorId": "Plugin dev-404-page",
-      "componentPath": "/Users/Andrea/Documents/portfolio/pith/.cache/dev-404-page.js",
       "id": "SitePage /dev-404-page/",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "be10de479d61b86cefecbd42031e396d",
-        "description": "Plugin dev-404-page",
+        "contentDigest": "f91d29e10ba680b413138cf9ed86e655",
         "owner": "internal-data-bridge"
       }
     },
@@ -274,11 +265,88 @@
         "owner": "internal-data-bridge"
       }
     },
+    "Plugin gatsby-plugin-favicon": {
+      "resolve": "/Users/Andrea/Documents/portfolio/pith/node_modules/gatsby-plugin-favicon",
+      "id": "Plugin gatsby-plugin-favicon",
+      "name": "gatsby-plugin-favicon",
+      "version": "3.1.4",
+      "pluginOptions": {
+        "plugins": [],
+        "logo": "./src/content/favicon.png",
+        "injectHTML": true,
+        "icons": {
+          "android": true,
+          "appleIcon": true,
+          "appleStartup": true,
+          "coast": false,
+          "favicons": true,
+          "firefox": true,
+          "twitter": false,
+          "yandex": false,
+          "windows": false
+        }
+      },
+      "nodeAPIs": [
+        "onCreateWebpackConfig"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/Users/Andrea/Documents/portfolio/pith/node_modules/gatsby-plugin-favicon",
+      "packageJson": {
+        "name": "gatsby-plugin-favicon",
+        "description": "Gatsby plugin to add favicon for all configurations",
+        "version": "3.1.4",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "favicon"
+        ],
+        "author": "Julien Blatecky <julien.blatecky@creatiwity.net>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "favicons-webpack-plugin",
+            "version": "git://github.com/Creatiwity/favicons-webpack-plugin.git#f262255febeeca348bf7ae5cc140e0386c074e2c"
+          },
+          {
+            "name": "html-react-parser",
+            "version": "^0.4.6"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.10"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          },
+          {
+            "name": "react",
+            "version": "^16.4.2"
+          }
+        ],
+        "devDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "bf760113840a697cc3e6f04d329b0134",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
     "Plugin default-site-plugin": {
       "resolve": "/Users/Andrea/Documents/portfolio/pith",
       "id": "Plugin default-site-plugin",
       "name": "default-site-plugin",
-      "version": "a2b816d90f98bd7967eedb9a7cd4e229",
+      "version": "c5b828b472784ca78547a53bd39870e5",
       "pluginOptions": {
         "plugins": []
       },
@@ -306,6 +374,10 @@
           {
             "name": "gatsby-link",
             "version": "^2.0.2"
+          },
+          {
+            "name": "gatsby-plugin-favicon",
+            "version": "^3.1.4"
           },
           {
             "name": "gatsby-plugin-react-helmet",
@@ -357,7 +429,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "39f60233abbd8a942cd1073545f605de",
+        "contentDigest": "57028a149f46509d93f1bbc5acdf6545",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -458,16 +530,14 @@
       "siteMetadata": {
         "title": "Gatsby Starter Tailwind"
       },
-      "port": "8000",
-      "host": "localhost",
       "pathPrefix": "/pithband.github.io",
       "polyfill": true,
-      "buildTime": "2018-09-30T20:17:50.053Z",
+      "buildTime": "2018-10-01T00:34:23.459Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "91200e821f77a4a642c93dcd345b76c3",
+        "contentDigest": "323c875bc3d6a7c717b50360ce900e1d",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -575,7 +645,7 @@
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "ba6cb856fd553fb9724719115efe3d54"
+    "PLUGINS_HASH": "39f23a19d6751fd181d98c476c4eca89"
   },
   "componentDataDependencies": {
     "nodes": {},
@@ -591,10 +661,6 @@
     "releases-e0a": "923/path---releases-e-0-a-9c0-NZuapzHg3X9TaN1iIixfv1W23E"
   },
   "components": {
-    "/Users/Andrea/Documents/portfolio/pith/.cache/dev-404-page.js": {
-      "query": "",
-      "componentPath": "/Users/Andrea/Documents/portfolio/pith/.cache/dev-404-page.js"
-    },
     "/Users/Andrea/Documents/portfolio/pith/src/pages/404.js": {
       "query": "",
       "componentPath": "/Users/Andrea/Documents/portfolio/pith/src/pages/404.js"

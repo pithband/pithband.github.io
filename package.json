@@ -6,6 +6,7 @@
   "dependencies": {
     "gatsby": "^2.0.0",
     "gatsby-link": "^2.0.2",
+    "gatsby-plugin-favicon": "^3.1.4",
     "gatsby-plugin-react-helmet": "^3.0.0",
     "react": "^16.5.2",
     "react-audio-player": "^0.10.0",
