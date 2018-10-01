@@ -28,7 +28,7 @@ const ContactPage = () => (
 					required
 				/>
 
-				<label className="block font-bold mb-4 text-xs uppercase" htmlFor="last-name">
+        <label className="block font-bold mb-4 text-gunmetal text-xs uppercase" htmlFor="last-name">
 					Email
 				</label>
 				<input
@@ -40,7 +40,7 @@ const ContactPage = () => (
 					required
 				/>
 
-				<label className="block font-bold mb-4 text-xs uppercase" htmlFor="message">
+        <label className="block font-bold mb-4 text-gunmetal text-xs uppercase" htmlFor="message">
 					Message
 				</label>
 				<textarea

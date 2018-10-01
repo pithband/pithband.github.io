@@ -532,12 +532,12 @@
       },
       "pathPrefix": "/pithband.github.io",
       "polyfill": true,
-      "buildTime": "2018-10-01T05:02:31.288Z",
+      "buildTime": "2018-10-01T05:06:55.204Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "48417bea14501dbe7e808da6c7222f0a",
+        "contentDigest": "b161036daf6d57806f320d2412c134e3",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
