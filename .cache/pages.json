@@ -20,6 +20,11 @@
         "path": "/contact/"
     },
     {
+        "componentChunkName": "component---cache-dev-404-page-js",
+        "jsonName": "dev-404-page-5f9",
+        "path": "/dev-404-page/"
+    },
+    {
         "componentChunkName": "component---src-pages-releases-js",
         "jsonName": "releases-e0a",
         "path": "/releases/"

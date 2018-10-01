@@ -11,7 +11,7 @@ const ContactPage = () => (
 		</div>
 		<div className="w-screen h-screen bg-honeydew flex flex-row items-center justify-center md:mt-10 lg:mt-0">
 			<form
-				className="xs:w-2/3 md:w-1/2 lg:w-1/3 lg:ml-32 lg:-mr-16"
+				className="xs:w-2/3 md:w-1/2 lg:w-1/3 xs:mt-24 md:mt-0 lg:ml-32 lg:-mr-16"
 				method="POST"
 				action={`https://formspree.io/contact@pith.band`}>
 				<label
