@@ -32,7 +32,7 @@ const ReleasesPage = () => (
 				<p className="text-gunmetal text-lg pb-6">Sweet Sweet Morning - 2016</p>
 				<SsmMobile />
 			</div>
-			<div className="shadow-outline rounded mt-10 mb-16 p-6 bg-lilac">
+			<div className="shadow-outline rounded mt-10 mb-16 p-6 bg-eton">
 				<p className="text-gunmetal text-lg text-bold pb-6">SOTNUL - 2014</p>
 				<SotnulMobile />
 			</div>

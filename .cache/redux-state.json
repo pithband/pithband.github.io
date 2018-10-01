@@ -1,22 +1,13 @@
 {
   "nodes": {
     "SitePage /dev-404-page/": {
-      "jsonName": "dev-404-page-5f9",
-      "internalComponentName": "ComponentDev404Page",
       "path": "/dev-404-page/",
-      "component": "/Users/Andrea/Documents/portfolio/pith/.cache/dev-404-page.js",
-      "componentChunkName": "component---cache-dev-404-page-js",
-      "context": {},
-      "pluginCreator___NODE": "Plugin dev-404-page",
-      "pluginCreatorId": "Plugin dev-404-page",
-      "componentPath": "/Users/Andrea/Documents/portfolio/pith/.cache/dev-404-page.js",
       "id": "SitePage /dev-404-page/",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "be10de479d61b86cefecbd42031e396d",
-        "description": "Plugin dev-404-page",
+        "contentDigest": "f91d29e10ba680b413138cf9ed86e655",
         "owner": "internal-data-bridge"
       }
     },
@@ -539,16 +530,14 @@
       "siteMetadata": {
         "title": "Gatsby Starter Tailwind"
       },
-      "port": "8000",
-      "host": "localhost",
       "pathPrefix": "/pithband.github.io",
       "polyfill": true,
-      "buildTime": "2018-10-01T04:06:46.745Z",
+      "buildTime": "2018-10-01T04:13:33.994Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "67aee4cb027f6c7f7a53afd2b39edd9c",
+        "contentDigest": "105a744368712745af9d8dcceb212fba",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -687,10 +676,6 @@
     "/Users/Andrea/Documents/portfolio/pith/src/pages/releases.js": {
       "query": "",
       "componentPath": "/Users/Andrea/Documents/portfolio/pith/src/pages/releases.js"
-    },
-    "/Users/Andrea/Documents/portfolio/pith/.cache/dev-404-page.js": {
-      "query": "",
-      "componentPath": "/Users/Andrea/Documents/portfolio/pith/.cache/dev-404-page.js"
     }
   },
   "staticQueryComponents": {}
